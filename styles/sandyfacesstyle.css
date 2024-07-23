@@ -34,6 +34,8 @@ nav a:hover {
 
 .container {
     padding: 20px;
+    box-sizing: border-box;
+  
 }
 
 .gallery {
