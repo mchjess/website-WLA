@@ -13,8 +13,9 @@
             position: fixed;
             top: 0;
             left: 0;
-            width: 100%;
-            padding: 20px;
+            width: 99%;
+            padding: 25px;
+            padding-right: 5px;
             text-align: center;
             background-color: #fff;
             color: #000;
