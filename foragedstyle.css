@@ -1,0 +1,18 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background: url(https://live.staticflickr.com/65535/53923054737_9264c41846_o.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.7); /* Add transparency */
+    color: white;
+    text-align: right;
+    font-size: 1em;
+    padding-right: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
