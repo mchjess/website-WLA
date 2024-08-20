@@ -19,41 +19,49 @@ body {
 }
 
 header {
-    background-color: rgba(0, 0, 0, 0.7); /* Add transparency */
+ 
     color: white;
     text-align: right;
-    font-size: 1em;
-    padding-right: 10px;
+    font-size: 3em;
+    padding-right: 50px;
     padding-top: 50px;
     padding-bottom: 50px;
 }
 
 nav {
-
-    background-color: rgba(0, 0, 0, 0.7); /* Add transparency */
-    overflow: hidden;
-    font-size: 2em;
-}
-
-nav a {
-    
-    display: grid;
-    size: 12em;
-    color: white;
+    font-weight: 200;
+    padding-top: 50px;
     text-align: right;
-    padding: 16px 18px;
-    text-decoration: none;
-   
+    padding-right: 50px;
 }
 
-nav a:hover {
-    background-color: #e62525;
-    color: black;
+a {
+    color: #333;
 }
+
+
+
+a:hover {
+        color: white;
+        background-color: #333;
+    }
 
 .container {
-    padding: 10px;
+    text-align: left;
+    padding-top: 50px;
+    padding-left: 485px;
+
     
+}
+
+.container2 {
+    color: rgb(161, 153, 153);
+    font-size: .8em;
+    text-align: left;
+    padding-left: 250px;
+    padding-top: 400px;
+    padding-right: 250px;
+
 }
 
 .footer {
