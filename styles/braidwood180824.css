@@ -25,3 +25,10 @@ header {
     padding-top: 50px;
     padding-bottom: 50px;
 }
+a {
+    color: white;
+}
+
+.container {
+    padding-top: 150px;
+}
