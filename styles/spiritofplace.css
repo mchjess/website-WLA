@@ -5,6 +5,17 @@ body {
     color: #333;
     background: url("https://live.staticflickr.com/65535/53933635237_fa7e305eb2_o.jpg") no-repeat center center fixed;
     background-size: cover;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 header {
